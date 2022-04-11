@@ -1,0 +1,136 @@
+body{font-family: 'Open Sans', sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 49px;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+}
+.header_logo>h1{
+    font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+/* or 125% */
+
+text-transform: uppercase;
+
+color: #FF8D69;
+margin-left: 20px;
+}
+
+.a1,.a2{
+    text-decoration: none;
+    margin-left: 30px;
+}
+.a2{
+    font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* or 100% */
+
+
+color: #000000;
+
+
+
+}
+.a1{
+    font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* or 111% */
+
+text-align: center;
+letter-spacing: 0.025em;
+
+color: #986969;
+
+
+}
+.main_sutiation>h1{
+    width: 738px;
+height: 148px;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+text-align: center;
+margin-left: 378px;
+margin-top: 100px;
+}
+.phone{
+    display: flex;
+    justify-content: space-around;
+}
+.blue{
+    list-style-type: #247BC5;
+    color: #247BC5;
+    font-size: 28px;
+}
+.yellow{
+    list-style-type: #F1C40F;
+    color: #F1C40F;
+    font-size: 28px;
+}
+.blue>ul>li{
+    margin-top: 30px;
+}
+.yellow>ul>li{
+    margin-top: 30px;
+}
+.main_psychology>h1{
+    width: 618px;
+height: 85px;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+text-align: center;
+margin-left: 450px;
+margin-top: 100px;
+}
+.main_information>h1{
+    width: 634px;
+height: 130px;
+font-weight: 400;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+text-align: center;
+margin-left: 450px;
+margin-top: 100px;
+}
+.bird1{
+    width: 315px;
+height: 275px;
+position: absolute;
+top: 410px;
+margin-left: 140px;
+
+}
+.bird2{
+    width: 301px;
+height: 338px;
+position: absolute;
+top: 1000px;
+left: 1230px;
+transform: scale(-1, 1) 
+}
+footer{
+    width: 100%;
+    height: 769px;
+    
+}
+.footer{
+   margin-left: -100px;
+}
